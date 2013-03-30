@@ -12,7 +12,7 @@ class AssignUser extends Plugin
 			$authors[ $author->id ] = $author->displayname;
 		}
 		
-		$author = $form->settings->append( 'text', 'author', 'null:null', _t( 'Author' ), $auhors, 'tabcontrol_select' );
+		$author = $form->settings->append( 'select', 'author', 'null:null', _t( 'Author' ), $authors, 'tabcontrol_select' );
 		
 		$author->options = $authors;
 		$author->value = $post->user_id;
