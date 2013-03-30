@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<pluggable type="plugin">
+	<name>Assign User</name>
+	<license url="http://www.apache.org/licenses/LICENSE-2.0.html">Apache Software License 2.0</license>
+	<url>http://lab.morgante.net/assignuser</url>
+	<author url="http://habariproject.org/">The Habari Community</author>
+	<version>0.1</version>
+	<description><![CDATA[Allow you to assign posts to a user]]></description>
+	<copyright>2012</copyright>
+	<guid>379220dc-b464-4ea6-92aa-9086a521db2c</guid>
+</pluggable>
+ 
